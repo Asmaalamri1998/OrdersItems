@@ -42,7 +42,7 @@ public class TestOrders {
         order3.total += item4.price;
 
         order4.items.add(item2);
-        order4.total += item2.price;
+        order4.total += item2.price*2;
 
 
         order1.ready= true;
